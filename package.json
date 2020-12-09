@@ -1,0 +1,28 @@
+{
+  "name": "@nearimba/wm-tool",
+  "version": "0.0.1",
+  "description": "webgl tools",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "npm run build && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NearImba/wm-tool.git"
+  },
+  "keywords": [
+    "webgl",
+    "tools"
+  ],
+  "author": "Nearimba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NearImba/wm-tool/issues"
+  },
+  "homepage": "https://github.com/NearImba/wm-tool#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
